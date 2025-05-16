@@ -101,3 +101,5 @@ docker exec -it postgres_db psql -U $POSTGRES_USER -d scrapper_db
 # Экспорт данных
 docker-compose exec postgres pg_dump -U $POSTGRES_USER -d bot_db > bot_backup.sql
 ```
+
+#### Воспользуйтесь файлом Test-Cases.md для проверки работоспособности по чек-листу
